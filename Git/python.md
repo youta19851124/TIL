@@ -28,3 +28,4 @@
 - ensyu = chokkei * 3.14, print (ensyu),  31.400000000000002
 - これなら直径を20に変える場合も、変数の値を変更すれば良いだでけで済む
 - 例：chokkei = 20, menseki = (chokkei / 2) * (chokkei / 2) * 3.14, print (menseki) 314.0, ensyu = chokkei * 3.14, print (ensyu)  62.800000000000004
+- 可読性も柔軟性も一気に向上した。このように、できるだけ変数を使ってわかりやすいコードを書くよう心がける。
