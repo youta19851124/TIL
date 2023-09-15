@@ -13,3 +13,4 @@
 - print関数 pythonに用意された値を出力するための関数 printの後ろに()の中に値を入力すると値が出力される　rubyでいうputs javaでいうconsole.log
 - 例：name = "Taro"  print(name) 出力結果： "Taro"
 - 変数には再代入が何度でも可能 例：pi = 3.15 pi = 3.142
+- 変数を使った計算式例： number = 7,  number = number + 1,  print(number) 出力結果：8 
