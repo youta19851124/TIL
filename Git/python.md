@@ -26,4 +26,5 @@
   また、ただ「10」とだけ書かれても何の値かわかりづらいので、上のソースコードを以下のように変更する。
 　　　　例：chokkei = 10　, menseki =(chokkei/ 2) *(chokkei/ 2) * 3.14, print (menseki)
 - ensyu = chokkei * 3.14, print (ensyu),  31.400000000000002
-- これなら直径を20に変える場合も、変数の値を変更すれば良いでけで済む
+- これなら直径を20に変える場合も、変数の値を変更すれば良いだでけで済む
+- 例：chokkei = 20, menseki = (chokkei / 2) * (chokkei / 2) * 3.14, print (menseki) 314.0, ensyu = chokkei * 3.14, print (ensyu)  62.800000000000004
