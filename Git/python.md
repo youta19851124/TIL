@@ -29,3 +29,5 @@
 - これなら直径を20に変える場合も、変数の値を変更すれば良いだでけで済む
 - 例：chokkei = 20, menseki = (chokkei / 2) * (chokkei / 2) * 3.14, print (menseki) 314.0, ensyu = chokkei * 3.14, print (ensyu)  62.800000000000004
 - 可読性も柔軟性も一気に向上した。このように、できるだけ変数を使ってわかりやすいコードを書くよう心がける。
+- name = "takashi" 文字数を調べる, name_ length = len (name), print (name_ length) 出力結果：7, print (name) 出力結果：'takashi'
+- 変数を使うことで、文字列の意味もわかりやすくなり、値を再利用することも簡単になった。
