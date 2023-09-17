@@ -41,4 +41,5 @@
 - バックスラッシュ記法　　Macの場合 option + ¥ でバックスラッシュを打つことができる。
 - 記法：　\n 意味：　改行, 　例：　text = input ( ), print(f"入力した値は「text」です"), print(f"入力した値はftext}です\n"), print(f"入力した値はftextトです")
 - 記法：　\t 意味：　タブ, 　記法：　\b 意味：　バックスペース, 記法：　\ 意味：　バックスラッシュ
-- 例：print(“ようこそ！\n名前を入力してください"), name = input (), print(“秒数を知りたい時間を分単位で入力してください"), minutes = input ( ), seconds = minutes * 60, print(f"fname」さん、fminutes}分は「seconds}秒です！")
+- 例：print(“ようこそ！\n名前を入力してください"), name = input (), print(“秒数を知りたい時間を分単位で入力してください"), minutes = input ( ), seconds = minutes * 60, print(f"fname」さん、fminutes}分は「seconds}秒です！"),　 okamotoさん、5分は555555555555555555555555555555555555555555555555555555555555秒です！, 表示がおかしい。
+- 
