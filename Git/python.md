@@ -54,9 +54,9 @@
 - 入力の案内も出力しておきましょう。
 - ride_count = 0
 - friends = []
-- print("お友達の名前は？い)
+- print("お友達の名前は？")
 - friends. append(input ())
-- print("お友達の身長は？“)
+- print("お友達の身長は？")
 - friends.append(int(input () ) )
 - ride_count += 1
 - print("お友達の名前は？")
