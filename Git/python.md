@@ -47,3 +47,5 @@
 - pencil_case =["ペン"，"消しゴム"，"定規"], print (pencil_case), 出力結果：　［ペン，消しゴム，定規]
 - appendメソッド：　生成した配列に新しい要素を追加したいときに使用する。　例：　pencil_case =［"ペン"，"消しゴム"，“定規"], pencil_case. append ("えんぴつ"), print (pencil_case)
 出力結果：　［'ペン'，'消しゴム'，'定規'，'えんぴつ']
+- 配列の要素数をlen関数を用いて数える方法
+- 例：　pencil_case = 【ペン"，"消しゴム"，“定規"］, print(len (pencil_case)), pencil_case.append("えんぴつ"), pencil_case.append("付箋"), print (len(pencil_case)) 出力結果：　3 5
