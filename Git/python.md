@@ -49,3 +49,24 @@
 出力結果：　［'ペン'，'消しゴム'，'定規'，'えんぴつ']
 - 配列の要素数をlen関数を用いて数える方法
 - 例：　pencil_case = 【ペン"，"消しゴム"，“定規"］, print(len (pencil_case)), pencil_case.append("えんぴつ"), pencil_case.append("付箋"), print (len(pencil_case)) 出力結果：　3 5
+- ミニアプリを作成
+- 名前、身長の情報を配列に追加します。 また、乗車できる人数を管理する変数ride_countも用意します。
+- 入力の案内も出力しておきましょう。
+- ride_count = 0
+- friends = []
+- print("お友達の名前は？い)
+- friends. append(input ())
+- print("お友達の身長は？“)
+- friends.append(int(input () ) )
+- ride_count += 1
+- print("お友達の名前は？")
+- friends.append(input () )
+- print(“お友達の身長は？“)
+- friends.append(int(input () ) )
+- ride_count += 1
+- print("お友達の名前は？")
+- friends. append(input ( ))
+- print("お友達の身長は？")
+- friends.append(int(input ( )) )
+- ride_count += 1
+- print(f"乗車するのは{ride_count}人です"）
