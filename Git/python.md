@@ -92,3 +92,4 @@ saburo
 - print(teacher)　出力結果：　{'name': 'Mike', 'age': 25 }
 - 辞書にデータを追加する：　[]を用いて追加できる, 例： teacher = {"name": "Mike", "age": 25 }, teacher["subject"] = "English", print (teacher), 出力結果：　{'name': 'Mike',
 'age': 25, 'subject': 'English"}
+- 辞書で値を取得するには 辞書［取得したい値のキー］といった形で取得できる。（配列の場合は添字）
