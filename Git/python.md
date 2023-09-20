@@ -99,3 +99,24 @@ saburo
 - 辞書で管理する際のデメリットとして、複数の辞書（teacher1, teacher2, teacher3、、、)を管理する際に名前とデータが一致しない場合が出てくる。そこで、配列と辞書を組み合わせることで管理がしやすくなる
 - 例：teachers[{ name: "Mike", age: 25 }, {name: "Emma", age: 28 }], print(teachers)[1], 出力結果： {name: "Emma", age: 28 }
 - 配列と辞書を組み合わせることで、別々の意味を持つ複数の値のまとまり自体を複数管理できる
+- friend = {}
+- print("お友達の名前は？“)
+- friend ["name"] = input ( )
+- print("お友達の身長は？”)
+- friend ["height"] = int(input ( ) )
+- friends append(friend)
+- ride_count += 1
+- friend = {}
+- print(“お友達の名前は？")
+- friend ["name"] = input ( )
+- print("お友達の身長は?")
+- friend["height"] = int(input () )
+- friends.append(friend)
+- ride_count += 1
+- friend = {}
+- print(“お友達の名前は？")
+- friend ["name"] = input ()
+- print("お友達の身長は？")
+- friend ["height"] = int(input ( ))
+- friends.append(friend)
+- ride_count += 1
