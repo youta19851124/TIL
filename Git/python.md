@@ -90,3 +90,5 @@ saburo
 - student = {"name": "John", "age": 10 } , teacher = {"name": "Mike", "age": 25 }
 - print (student)　出力結果：　{'name': 'John', 'age': 10 }
 - print(teacher)　出力結果：　{'name': 'Mike', 'age': 25 }
+- 辞書にデータを追加する：　[]を用いて追加できる, 例： teacher = {"name": "Mike", "age": 25 }, teacher["subject"] = "English", print (teacher), 出力結果：　{'name': 'Mike',
+'age': 25, 'subject': 'English"}
