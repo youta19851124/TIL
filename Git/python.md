@@ -95,4 +95,4 @@ saburo
 - 辞書で値を取得するには 辞書［取得したい値のキー］といった形で取得できる。（配列の場合は添字）
 - 例：　print(teacher ["name"])　, 出力結果：　Mike
 - 辞書の値を変更するには 辞書［変更したい値のキー］ = 値　　といった形で変更できる
-- 
+- 例：　teacher ["name"] = "Emma", print(teacher["name"]), 出力結果：　Emma
