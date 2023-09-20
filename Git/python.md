@@ -120,3 +120,5 @@ saburo
 - friend ["height"] = int(input ( ))
 - friends.append(friend)
 - ride_count += 1
+- 条件分岐と比較演算子を用いて身長制限をしてみる
+- Rubyと同じif文を使うが、pythonではendではなくインデントの変化で処理の終了を判断する
