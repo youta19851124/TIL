@@ -96,3 +96,4 @@ saburo
 - 例：　print(teacher ["name"])　, 出力結果：　Mike
 - 辞書の値を変更するには 辞書［変更したい値のキー］ = 値　　といった形で変更できる
 - 例：　teacher ["name"] = "Emma", print(teacher["name"]), 出力結果：　Emma
+- 辞書で管理する際のデメリットとして、複数の辞書（teacher1, teacher2, teacher3、、、)を管理する際に名前とデータが一致しない場合が出てくる。そこで、配列と辞書を組み合わせることで管理がしやすくなる
