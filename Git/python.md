@@ -140,4 +140,10 @@ saburo
 - else:
 - print("値は負です”)
 - 条件式において、戻り値がtrueでもfalseでもない場合、elifを用いて処理を実行できる（Rubyのelsif, Javaのelse if）
-- 
+- 例：　value =int(input ( ))
+- if value > 0:
+- print ("値は正です")
+- elif value < 0:
+- print ("値は負です")
+- else:
+- print("値は0です")
