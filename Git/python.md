@@ -154,3 +154,4 @@ saburo
 - colors =【"あか", "あお", "きいろ"］
 - for color in colors:
 - print (f"色: {color}")
+- 出力結果：　色：あか, 色：あお, 色：きいろ
