@@ -151,4 +151,6 @@ saburo
 - 繰り返し処理を実行させる際には、for文を使う
 - 例：　for 変数 in 配列：
 - 実行する処理
-- 
+- colors =【"あか", "あお", "きいろ"］
+- for color in colors:
+- print (f"色: {color}")
