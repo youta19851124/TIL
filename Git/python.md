@@ -164,3 +164,18 @@ saburo
 -  for i in range (10):　, print (i + 1)
 -  0から始まるブロック変数に1ずつ足していくことで、繰り返した回数を出力している。
 -  以下に、for文とrange関数を使って、同じ内容の条件分岐を3回繰り返す
+-  ride count = 0
+- friends = []
+- for i in range (3):
+- friend = {}
+- print("お友達の名前は？"）
+- friend ["name"] = input ()
+- print("お友達の身長は？")
+- friend ["height"] = int(input ( ))
+- friends.append(friend)
+- if friend["height"] >= 130:
+- print(f"{friend['name']}くんは乗車できます")
+- ride_count += 1
+- else:
+- print (f"{friend['name']}くんは乗車できません！")
+- print(f"乗車できるのは{ride_count}人です”)
