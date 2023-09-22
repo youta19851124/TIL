@@ -155,3 +155,5 @@ saburo
 - for color in colors:
 - print (f"色: {color}")
 - 出力結果：　色：あか, 色：あお, 色：きいろ
+- 繰り返したい処理の回数を指定する場合、for文とrange関数を組み合わせる
+- 
