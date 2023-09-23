@@ -209,4 +209,4 @@ saburo
 - 例：　def sample ():
 - num = 2 * 3
 - return num
-- print (sample ()) ,  6
+- print (sample ()) ,  6　　returnを記述した行の値(6)が戻ってきていることがわかる
