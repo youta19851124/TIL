@@ -181,3 +181,19 @@ saburo
 - print(f"乗車できるのは{ride_count}人です”)
 - 以上でfor文とrange関数を用いて繰り返し処理を3回行うコードの記述ができた。さらに、データを入力する記述とデータを出力する記述に分けることでより機能拡張をする際に利便性があるため分けてみる。
 - 最初にデータの入力のみを行い、その後に出力を行うようにコードを分けてみる。
+- ride count = 0
+- friends = []
+- for i in range (3):
+- friend = {}
+- print("お友達の名前は？")
+- friend ['name' ]=input ()
+- print("お友達の身長は？")
+- friend[ 'height' ]=int(input ( ))
+- friends.append(friend)
+- for friend in friends:
+- if friend[ 'height' ] >= 130:
+- print(f"{friend['name']}くんは乗車できます")
+- ride_count += 1
+- else:
+- print(f"{friend['name']}」くんは乗車できません！")
+- print(f"乗車するのは{ride_count}人です")
