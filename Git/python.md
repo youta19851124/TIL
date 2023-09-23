@@ -211,3 +211,8 @@ saburo
 - return num
 - print (sample ()) ,  6　　returnを記述した行の値(6)が戻ってきていることがわかる
 - スコープについて：　関数の中で定義された変数は関数の外では使えない。
+- 例：　def plus_one():
+- number = int(input ( ))
+- plus_one()
+- print (number + 1)　, 関数plus_oneの中で定義された変数numberは関数の外では使えないためエラーとなる
+- 
