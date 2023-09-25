@@ -251,4 +251,4 @@ saburo
 - print("フルーツを入力してください")
 - fruit = input ( )
 - print (mixer(fruit)）
-- 
+- 実行結果：　フルーツを入力してください, apple, appleを細かく砕く, appleジュース
