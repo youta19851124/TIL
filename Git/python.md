@@ -237,3 +237,4 @@ saburo
 - print (value * value)
 - number = 3
 - square (number）    実引数は「number」
+- 変数numberに「3」を代入している。　実引数はnumber、仮引数はvalueとなっている。　　これでも先ほどと同様に結果は「9」が出力される。
