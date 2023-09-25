@@ -233,3 +233,7 @@ saburo
 - square(3) ①数値「3」を実引数にして関数を呼び出し
 - 実引数と仮引数の名前は、同じでも別の名前でも動作に違いはない。
 - これは、実引数に変数を使った場合も同じ。
+- 仮引数と実引数が別の名前の場合の例：def square (value): 　　仮引数は「value」
+- print (value * value)
+- number = 3
+- square (number）    実引数は「number」
