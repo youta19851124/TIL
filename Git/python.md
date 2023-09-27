@@ -307,3 +307,5 @@ saburo
 - ride_count += 1
 - else:
 - print(f"{friend['name']}くんは乗車できません！")
+- 入力と出力を関数として定義したコードの完成例：
+- 
