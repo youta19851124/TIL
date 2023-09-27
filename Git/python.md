@@ -300,3 +300,4 @@ saburo
 - else:
 - print(f"{friend['name']}くんは乗車できません！")
 - print(f"乗車できるのは{ride_count}人です")
+- 続いてデータの出力部分も関数として切り出してみる
