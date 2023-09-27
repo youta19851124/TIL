@@ -266,3 +266,19 @@ saburo
 - 1
 - こちらのコードでは、変数numの定義をfor文の中で行なっており、for文の外で出力をしている。しかし、関数とは異なりエラーが出ていない。for文の中で定義した変数もfor文の外で使用できるということ。2つの違いをしっかり理解しておく。
 - まとまった処理には関数として名前をつけて定義しておくべきである。
+- 例：ride_count = 0
+- friends = []
+- for i in range(3):
+- friend = { }
+- print("お友達の名前は？")
+- friend ['name']=input ( )
+- print("お友達の身長は？“)
+- friend ['height']=int(input ( ))
+- friends. append(friend)
+- for friend in friends:
+- if friend['height ]>=130:
+- print(f"{friend['name「1}くんは乗車できます")
+- ride count += 1 else:
+- print(f"{friend［'name「1」くんは乗車できません！")
+- print(f"乗車できるのはfride_count」人です"）
+- 上記のようなコードを訂正してみる。
