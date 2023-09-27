@@ -282,3 +282,21 @@ saburo
 - print(f"{friend［'name「1」くんは乗車できません！")
 - print(f"乗車できるのはfride_count」人です"）
 - 上記のようなコードを訂正してみる。
+- ride_count = 0
+- def add_friend(list):
+- friend = {}
+- print("お友達の名前は？")
+- friend ['name' ]=input ( )
+- print("お友達の身長は？"）
+- friend['height']=int(input () )
+- list.append(friend)
+- friends = []
+- for i in range(3):
+- add friend(friends)
+- for friend in friends:
+- if friend['height']>=130:
+- print(f"{friend['name']}くんは乗車できます")
+- ride_count += 1
+- else:
+- print(f"{friend['name']}くんは乗車できません！")
+- print(f"乗車できるのは「ride_count}人です")
