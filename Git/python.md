@@ -301,3 +301,9 @@ saburo
 - print(f"{friend['name']}くんは乗車できません！")
 - print(f"乗車できるのは{ride_count}人です")
 - 続いてデータの出力部分も関数として切り出してみる
+- for friend in friends:
+- if friend ['height ]>=130:
+- print(f"{friend['name']}くんは乗車できます!!)
+- ride_count += 1
+- else:
+- print(f"{friend['name']}くんは乗車できません！")
