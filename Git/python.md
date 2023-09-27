@@ -299,4 +299,4 @@ saburo
 - ride_count += 1
 - else:
 - print(f"{friend['name']}くんは乗車できません！")
-- print(f"乗車できるのは「ride_count}人です")
+- print(f"乗車できるのは{ride_count}人です")
