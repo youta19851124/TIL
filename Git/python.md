@@ -308,4 +308,23 @@ saburo
 - else:
 - print(f"{friend['name']}くんは乗車できません！")
 - 入力と出力を関数として定義したコードの完成例：
-- 
+- def judge_height(list):
+- ride_ count = 0
+- for friend in list:
+- if friend ['height']>=130:
+- print (f"{friend['name']}くんは乗車できます")
+- ride_count += 1
+- else:
+- print(f"{friend['name']}くんは乗車できません！")
+- print(f"乗車するのは{ride_count}人です")
+- def add_ friend(list):
+- friend = {}
+- print("お友達の名前付？"）
+- friend ['name']=input ( )
+- print("お友達の身長は？")
+- friend['height']=int (input ( ))
+- list.append(friend)
+- friends = []
+- for i in range (3):
+- add_ friend(friends)
+- judge_height(friends)
