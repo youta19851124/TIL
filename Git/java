@@ -31,3 +31,11 @@
 - 上記のコードはJavaでは必ず書かなければならないコードである。
 - System.out.printlnは()の中を出力するメソッドで、Rubyでいうputsに相当する。
 - 以下のコードの意味を確認してみる
+- class Main {
+  public static void main(String[] args) {
+    int radius;
+    radius = 5;
+    System.out.println(radius * radius * 3.14);
+  }
+}
+
