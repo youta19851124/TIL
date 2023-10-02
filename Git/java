@@ -38,4 +38,5 @@
     System.out.println(radius * radius * 3.14);
   }
 }
+- 1:int radius;によって、int型の変数radiusを宣言する
 
