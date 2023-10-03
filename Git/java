@@ -54,4 +54,18 @@
 ① 配列の宣言を行う
 ② 配列の要素を作成し、配列に代入する
 ③ 配列の要素に値を代入する
-- 
+- 例：
+  class Main {
+  public static void main(String[] args) {
+    int[] scores;
+    scores = new int[3];
+
+    scores[0] = 1;
+    scores[1] = 5;
+    scores[2] = 10;
+
+    System.out.println(scores[0]);
+    System.out.println(scores[1]);
+    System.out.println(scores[2]);
+  }
+}
