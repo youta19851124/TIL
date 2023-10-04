@@ -100,4 +100,20 @@ LinkedList
 - ArraListは「可変長配列」を使用するための仕組み。可変長配列とは、文字通り長さ（要素数）を変更できる配列のこと。
 Rubyの配列は可変長なので、Javaの配列よりもArrayListの方が性質や使い方が近いものとなっている。
 - ArrayListの使い方は以下のように使う。
-  
+  import java.util.ArrayList;
+
+class Main {
+  public static void main(String[] args) {
+    ArrayList<Integer> scores = new ArrayList<Integer>();
+
+    scores.add(1);
+    scores.add(5);
+    scores.add(10);
+    scores.add(15);
+
+    System.out.println(scores.get(0));
+    System.out.println(scores.get(1));
+    System.out.println(scores.get(2));
+    System.out.println(scores.get(3));
+  }
+}
