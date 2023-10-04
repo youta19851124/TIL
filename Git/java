@@ -172,3 +172,4 @@ class Main {
 } else {
   // 処理C
 }
+- Rubyの「elsif」は、Javaでは「else if」と記述することに注意する。
