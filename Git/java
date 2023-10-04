@@ -123,5 +123,9 @@ class Main {
 ① ライブラリをインポートする　　ArrayListを使用する際は、ライブラリのインポートが必要。インポートするには、ファイルの冒頭に以下の記述を行う。
   import java.util.ArrayList;
 ② ArrayListの宣言を行う
+  ArrayList<Integer> scores = new ArrayList<Integer>();
+ここで行っているのは、以下の２つの動作です。
+・ 整数（Integer）を格納するArrayListを「score」という名称で宣言
+・　ArrayListの要素を作成
 ③ ArrayListに値を代入する
 ④ ArrayListから要素を取り出す
