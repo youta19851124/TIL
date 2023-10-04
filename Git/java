@@ -151,3 +151,16 @@ if ( 条件式 ) {
 ・条件式を（）で囲む必要があること
 ・行いたい処理を{}で囲む必要があること
 - また、さらに細かい条件分岐をする際は、Rubyと同じようにelseやelsifを用いる。
+class Main {
+  public static void main(String[] args) {
+    int value = 3;
+
+    if (value > 0){
+      System.out.println("値は正です"); 
+    }else if (value < 0){
+      System.out.println("値は負です"); 
+    }else {
+      System.out.println("値は0です"); 
+    }
+  }
+}
