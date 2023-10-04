@@ -130,4 +130,5 @@ class Main {
 ③ ArrayListに値を代入する　　ArrayListに要素を追加するためにはaddメソッドを使用する。
 記述は、add(要素として追加する値)のように行う。
   scores.add(1);
-④ ArrayListから要素を取り出す
+④ ArrayListから要素を取り出す　　要素を取り出す際は、getメソッドを使用する。
+  
