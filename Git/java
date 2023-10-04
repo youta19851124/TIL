@@ -117,3 +117,4 @@ class Main {
     System.out.println(scores.get(3));
   }
 }
+- ArrayListを使用する際は、事前にライブラリのインポートが必要。
