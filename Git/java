@@ -164,3 +164,11 @@ class Main {
     }
   }
 }
+- 基本的な使い方はRubyと同じ。
+  if (条件A) { 
+  // 処理A
+} else if () {
+  // 処理B
+} else {
+  // 処理C
+}
