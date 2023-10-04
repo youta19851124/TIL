@@ -97,5 +97,5 @@
 ArrayList
 LinkedList
 　- 使用頻度の高いArrayListについて
-
-
+- ArraListは「可変長配列」を使用するための仕組み。可変長配列とは、文字通り長さ（要素数）を変更できる配列のこと。
+Rubyの配列は可変長なので、Javaの配列よりもArrayListの方が性質や使い方が近いものとなっている。
