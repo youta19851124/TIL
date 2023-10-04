@@ -127,5 +127,7 @@ class Main {
 ここで行っているのは、以下の２つの動作です。
 ・ 整数（Integer）を格納するArrayListを「score」という名称で宣言
 ・　ArrayListの要素を作成
-③ ArrayListに値を代入する
+③ ArrayListに値を代入する　　ArrayListに要素を追加するためにはaddメソッドを使用する。
+記述は、add(要素として追加する値)のように行う。
+  scores.add(1);
 ④ ArrayListから要素を取り出す
