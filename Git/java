@@ -96,4 +96,6 @@
 また、Javaのリストには、以下の2種類がある。
 ArrayList
 LinkedList
+　- 使用頻度の高いArrayListについて
+
 
