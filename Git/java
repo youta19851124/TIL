@@ -171,5 +171,7 @@ class Main {
   // 処理B
 } else {
   // 処理C
+- 繰り返し処理として、Javaでは拡張for文を用いる
+  
 }
 - Rubyの「elsif」は、Javaでは「else if」と記述することに注意する。
