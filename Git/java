@@ -171,7 +171,16 @@ class Main {
   // 処理B
 } else {
   // 処理C
-- 繰り返し処理として、Javaでは拡張for文を用いる
-  
 }
 - Rubyの「elsif」は、Javaでは「else if」と記述することに注意する。
+- 繰り返し処理として、Javaでは拡張for文を用いる
+- 拡張for文の使用例：　
+class Main {
+  public static void main(String[] args) {
+    int[] scores = {1, 5, 10};
+
+    for(int score : scores) {
+      System.out.println(score);  
+    }
+  }
+}  
