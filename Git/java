@@ -186,4 +186,19 @@ class Main {
 }  
 - コードを実行すると、scoresという配列の要素として、「1, 5, 10」を代入しているが、拡張for分によって取り出して出力できていることが分かる。
 - ArrayListからも要素を取り出す場合も使い方は一緒で以下のように使用する。
-  
+- import java.util.ArrayList;
+
+class Main {
+  public static void main(String[] args) {
+    ArrayList<Integer> scores = new ArrayList<Integer>();
+
+    scores.add(1);
+    scores.add(5);
+    scores.add(10);
+    scores.add(15);
+
+    for(int score : scores) {
+      System.out.println(score);  
+    }
+  }
+}
