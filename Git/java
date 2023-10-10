@@ -216,3 +216,7 @@ class Main {
 ② 取り出した要素を変数に代入する
 ③ {}内の処理を行う
 ④ 配列、あるいはArrayListの要素数分だけ処理を繰り返す
+変数scoresから要素を取り出し、ing型の変数scoreに代入するという動作になっている。
+  for(int score : scores) {
+  System.out.println(score);  
+}
