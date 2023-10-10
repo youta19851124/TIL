@@ -246,3 +246,14 @@ class Main {
 - Javaでの一般的なメソッドについて以下の2つに分けて整理する。
 ① 引数を使用しないメソッドの使い方
 ② 引数を使用するメソッドの使い方
+- まずは、以下の記述について解説
+class Main {
+  public static void main(String[] args) {  
+    sayHello();
+  }
+
+  public static void sayHello() {
+    System.out.println("Hello World");
+    return;
+  }
+}
