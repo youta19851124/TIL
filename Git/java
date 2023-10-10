@@ -220,3 +220,6 @@ class Main {
   for(int score : scores) {
   System.out.println(score);  
 }
+- Javaのメソッドについて
+  メソッドの役割は、RubyとJavaで変わらないが、記述の方法は大きく異なる。記述するにはクラスに関する知識も必要。
+　　　　また、mainメソッドという特別な意味を持つメソッドについても理解が必要
