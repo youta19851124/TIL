@@ -258,4 +258,4 @@ class Main {
   }
 }
 - 実行すると、Hello World と表示される。
-  
+  public static void sayHello() {　→ voidで返り値のデータ型を指定している。　sayHelloはメソッド名。
