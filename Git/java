@@ -242,3 +242,5 @@ class Main {
 　　　　public static void main(String[] args) {  
       // ここに処理を書く
 　　　　}
+- 以上がmainメソッドという特殊なメソッドに関する解説である。
+  
