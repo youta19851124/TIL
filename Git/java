@@ -257,3 +257,5 @@ class Main {
     return;
   }
 }
+- 実行すると、Hello World と表示される。
+  
