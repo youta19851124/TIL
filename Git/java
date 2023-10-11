@@ -269,3 +269,5 @@ class Main {
 ・public
 ・protected
 ・private 
+- この「private」という記述は、Rubyにおいて使用した記述と同じ役割。
+  
