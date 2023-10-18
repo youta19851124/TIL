@@ -179,3 +179,5 @@ EB(エクサバイト)
 - ADSLは、Asymmetric Digital Subscriber Lineの略。電話回線を利用したサービスです。
 - HDSLは、High-bit-rate Digital Subscriber Lineの略。ADSLよりもさらに高速なデータ通信を可能にしたxDSL技術の一つです。2対の電話線を使って通信します。
 - ISDNは、Integrated Services Digital Networkの略。電話回線を利用したサービスです。
+- ディジタル署名は、公開鍵暗号方式を使ってディジタル文書の正当性を保証する技術です。ディジタル署名を利用して確認できることは「発信者が正当であるか」と「改ざんの有無」の2点です。また改ざんの検知はできますが改ざん部位の特定、および訂正機能はもちません。
+- 
